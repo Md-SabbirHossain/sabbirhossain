@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Banner Section */
+.banner-container{
+    /* background-color: #CACACA; */
+    background-image: url(../images/banner-container.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: #262B37;
+
+} 
+.banner-column{
+    background-color:#8D8D8D;
+}
+.banner-column h1{
+    font-weight: bold;
+}
+/* Navbar Container */
+.navbar-container{
+    background-color: #262B37;
+    position: sticky;
+    top: 0;
+    z-index:2;
+}
+
+/* About Container */
+.about-container{
+    background-color: #00BDBD;
+}
+
+/* EDUCATION SECTION */
+.edutacion-container{
+    background-color: #EEEEEE;
+}
+.edu-h1-font{
+    color: #Fb857F;
+    /* font-weight: 600; */
+}
+.bg-edu{
+    background-color: #FB857F;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+@media only screen and (max-width:768px) {
+ 
+    .circle{
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:1200px) {
+ 
+  .ml{
+      margin-left:2rem;
+  }
+}
+
+/* Project Container */
+
+.project-container{
+    margin-top: -23px;
+    background-color: #2BB3DD;
+}
+
+/* Portfolio Section */
+/* .portfolio-text-color{
+    color: ;
+} */
+
+/* form-container */
+
+.bg-form{
+    background: #262B37;
+}
+.text-area-fix{
+    resize: none;
+}
+
+/* Footer area */
+.circle-2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: turquoise;
+}
+.circle-2:hover{
+    background-color: #262B37;;
+}
